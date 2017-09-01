@@ -6,7 +6,7 @@
 
 On your Dokku server:
 
-    dokku app:create dokku-rails-omniauth-bootstrap-react
+    dokku apps:create dokku-rails-omniauth-bootstrap-react
     sudo dokku plugin:install https://github.com/dokku/dokku-postgres.git
     dokku postgres:create dokku-rails-omniauth-bootstrap-react-database
     dokku postgres:link dokku-rails-omniauth-bootstrap-react-database dokku-rails-omniauth-bootstrap-react
