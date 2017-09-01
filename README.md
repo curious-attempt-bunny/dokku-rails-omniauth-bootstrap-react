@@ -26,6 +26,7 @@ On your Dokku server:
 
     sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
     dokku config:set --no-restart dokku-rails-omniauth-bootstrap-react DOKKU_LETSENCRYPT_EMAIL=yourregistrationemail.com
+    dokku letsencrypt dokku-rails-omniauth-bootstrap-react
     dokku letsencrypt:cron-job --add    
 
 ## Add Google OAuth2 config to your add
